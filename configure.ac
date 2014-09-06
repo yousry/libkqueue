@@ -20,3 +20,5 @@ AC_CHECK_HEADERS([sys/epoll.h sys/inotify.h sys/signalfd.h sys/timerfd.h sys/eve
 
 AC_CONFIG_FILES([Makefile libkqueue.pc])
 AC_OUTPUT
+
+AC_CONFIG_MACRO_DIR([m4])
